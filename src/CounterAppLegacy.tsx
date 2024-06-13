@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { createStore, combineReducers } from 'redux';
 import { Provider, useDispatch, useSelector } from 'react-redux';
 

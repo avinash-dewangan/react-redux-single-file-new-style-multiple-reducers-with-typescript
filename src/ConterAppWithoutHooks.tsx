@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { createStore, combineReducers } from 'redux';
-import { Provider, useDispatch, useSelector, connect } from 'react-redux';
+import { Provider, connect } from 'react-redux';
 
 // Define types for state
 interface CounterState {

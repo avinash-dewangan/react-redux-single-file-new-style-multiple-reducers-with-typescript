@@ -1,11 +1,15 @@
 
 import './App.css';
-import CounterAppNewStyle from './CounterAppNewStyle';
+import ProductApp from "./components/Product"
+import CounterApp from "./components/Counter"
+
 
 function App() {
   return (
    <>
-   <CounterAppNewStyle/>
+<ProductApp/>
+<CounterApp/>
+  
     </>
   );
 }
